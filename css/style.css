@@ -40,7 +40,7 @@
     --font-medium: 500;
     --font-semi-bold: 600;
 
-    /* ============================ margenes bottom ============================ */
+    /* ============================ margins bottom ============================ */
     /* .25rem = 4px, .5rem = 8px, .75rem = 12px ... */
     --mb-0-25: .25rem;
     --mb-0-5: .5rem;
@@ -207,7 +207,7 @@ img{
 
 /* change background header */
 .scroll-header{
-    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .15);
 }
 /* show menu */
 .show-menu{
@@ -412,32 +412,46 @@ img{
     display: block;
     background-color: var(--first-color);
 }
-.skills-html{
-    width: 95%;
+.skills-html5{
+    width: 100%;
 }
-.skills-css{
-    width: 92%;
+.skills-css3{
+    width: 97%;
 }
 .skills-js{
-    width: 70%;
+    width: 88%;
 }
 .skills-bootStrap{
-    width: 90%;
+    width: 98%;
 }
 .skills-react{
     width: 65%;
 }
 .skills-typeScript{
-    width: 60%;
-}
-.skills-asp{
-    width: 70%;
-}
-.skills-php{
     width: 80%;
 }
-.skills-SQL{
-    width: 60%;
+.skills-api {
+    width: 95%;
+}
+
+.skills-node{
+    width: 80%;
+}
+.skills-express{
+    width: 80%;
+}
+.skills-npm{
+    width: 98%;
+}
+.skills-db{
+    width: 92%;
+}
+.skills-JWT{
+    width: 95%;
+}
+
+.skills-UXUI{
+    width: 90%;
 }
 .skills-figma{
     width: 90%;
@@ -445,24 +459,33 @@ img{
 .skills-xd{
     width: 85%;
 }
-.skills-UXUI{
-    width: 80%;
+.skills-photoShope{
+    width: 70%;
 }
-.skills-photoshope{
-    width: 60%;
+
+.skills-System{
+    width: 75%;
 }
-.skills-requirement{
+.skills-github{
     width: 95%;
 }
-.skills-usecase{
-    width: 97%;
-}
-.skills-DFD{
+.skills-postman{
     width: 98%;
 }
-.skills-ERD{
-    width: 98%;
+.skills-MS-Office{
+    width: 95%;
 }
+.skills-Work-Under-Pressure{
+    width: 100%;
+}
+.skills-solving-problems{
+    width: 95%;
+}
+
+.skills-team-work{
+    width: 100%;
+}
+
 .skills-close .skills-list{
     height: 0;
     overflow: hidden;
@@ -475,6 +498,7 @@ img{
 }
 .skills-open .skills-arrow{
     transform: rotate(-180deg);
+    transition: all .3s;
     transition: all .3s;
 
 }
@@ -838,6 +862,16 @@ img{
     color: var(--text-color-light);
     margin-top: var(--mb-3);
 }
+.footer-copy .nav-logo{
+    color: #fff;
+    font-weight: var(--font-medium);
+}
+
+.footer-copy .nav-logo:hover{
+    color: var(--text-color-light);
+    font-weight: var(--font-semi-bold);
+}
+
 .footer-title, .footer-subtitle, .footer-link, .footer-social{
     color: #fff;
 }
@@ -1023,6 +1057,7 @@ img{
         width: 350px;
         height: 350px;
     }
+
     .about-description{
         text-align: initial;
     }
